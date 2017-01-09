@@ -14,6 +14,7 @@
 		A73CE9B51E242F9C005B4EDC /* CoreDataConcepts.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A73CE9B31E242F9C005B4EDC /* CoreDataConcepts.xcdatamodeld */; };
 		A73CE9B71E242F9C005B4EDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A73CE9B61E242F9C005B4EDC /* Assets.xcassets */; };
 		A73CE9BA1E242F9C005B4EDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A73CE9B81E242F9C005B4EDC /* LaunchScreen.storyboard */; };
+		A73CE9C31E24304D005B4EDC /* DataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A73CE9C21E24304D005B4EDC /* DataViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,8 @@
 		A73CE9B61E242F9C005B4EDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A73CE9B91E242F9C005B4EDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A73CE9BB1E242F9C005B4EDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A73CE9C11E24304D005B4EDC /* DataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataViewController.h; sourceTree = "<group>"; };
+		A73CE9C21E24304D005B4EDC /* DataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +47,8 @@
 		A73CE99B1E242F9C005B4EDC = {
 			isa = PBXGroup;
 			children = (
+				A73CE9C11E24304D005B4EDC /* DataViewController.h */,
+				A73CE9C21E24304D005B4EDC /* DataViewController.m */,
 				A73CE9A61E242F9C005B4EDC /* CoreDataConcepts */,
 				A73CE9A51E242F9C005B4EDC /* Products */,
 			);
@@ -158,6 +163,7 @@
 				A73CE9AC1E242F9C005B4EDC /* AppDelegate.m in Sources */,
 				A73CE9A91E242F9C005B4EDC /* main.m in Sources */,
 				A73CE9B51E242F9C005B4EDC /* CoreDataConcepts.xcdatamodeld in Sources */,
+				A73CE9C31E24304D005B4EDC /* DataViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
